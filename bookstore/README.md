@@ -55,7 +55,7 @@ These events are streamed to Apache Kafka, processed in real-time using Apache S
 ### Prerequisites
 1. **Docker**: Install Docker from [here](https://docs.docker.com/get-docker/).
 2. **Docker Compose**: Install Docker Compose from [here](https://docs.docker.com/compose/install/).
-3. **Python**: Install Python 3.x from [here](https://www.python.org/downloads/).
+3. **Python**: Install Python 3.9.x from [here](https://www.python.org/downloads/).
 
 ### Clone the Repository
 ```bash
