@@ -1,5 +1,7 @@
 # Real-Time User Event Streaming: Bookstore Web App to Cassandra with Kafka and Spark
 
+![Project Architecture](static/e2e_project.png)
+
 This project demonstrates an end-to-end pipeline for streaming user events from a Bookstore web application to Apache Cassandra using Apache Kafka and Apache Spark. The entire setup is containerized using Docker Compose for easy replication and scalability.
 
 ---
