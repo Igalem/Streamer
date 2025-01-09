@@ -25,6 +25,9 @@ The Bookstore web application, built with Flask, generates user events such as:
 
 These events are streamed to Apache Kafka, processed in real-time using Apache Spark, and stored in Apache Cassandra for persistent storage and analysis.
 
+![Project Architecture](static/webApp.png)
+
+
 ---
 
 ## Architecture
@@ -100,5 +103,7 @@ Connect to Cassandra and query the user_events table:
 USE bookstore;
 SELECT * FROM events;
 ```
+
+![Project Architecture](static/cassandra_results.png)
 
 Thx! 😊
