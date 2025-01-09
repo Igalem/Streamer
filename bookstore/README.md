@@ -67,9 +67,11 @@ Install the required Python libraries for the Flask app:
 ```bash
 pip install -r requirements.txt
 ```
+---
 
-### Running the Project
-# 1. Start the Docker Containers
+## Running the Project
+
+### 1. Start the Docker Containers
 Use Docker Compose to start all services:
 ```bash
 docker-compose up -d
